@@ -19,7 +19,6 @@ st.write("""
 # Cifar10 prediction"""
 )
 file=st.file_uploader("Choose plant photo from computer",type=["jpg","png"])
-A
 import cv2
 from PIL import Image,ImageOps
 import numpy as np
